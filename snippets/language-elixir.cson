@@ -1,0 +1,10 @@
+'.text.elixir':
+  'eex_render_block':
+    'prefix': '='
+    'body': '<%= $1 %>'
+  'eex_exec_block':
+    'prefix': '-'
+    'body': '<% $1 %>'
+  'eex_comment_block':
+    'prefix': '#'
+    'body': '<%# $1 %>'
