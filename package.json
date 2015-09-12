@@ -1,18 +1,19 @@
 {
-  "name": "phoenix-snipets",
-  "main": "./lib/phoenix-snipets",
+  "name": "phoenix-snippets",
   "version": "0.0.1",
+  "engines": {
+    "atom": ">= 0.189.0"
+  },
   "description": "Snippets for your phoenix projects",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "phoenix-snipets:toggle"
-  },
-  "repository": "https://github.com/atom/phoenix-snipets",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
+  "repository": "https://github.com/victorlcampos/phoenix-snippets",
+  "license": "Apache 2.0",
   "dependencies": {
-  }
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/victorlcampos/phoenix-snippets/issues"
+  },
+  "homepage": "https://github.com/victorlcampos/phoenix-snippets/"
 }

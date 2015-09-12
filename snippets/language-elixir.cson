@@ -8,3 +8,53 @@
   'eex_comment_block':
     'prefix': '#'
     'body': '<%# $1 %>'
+  'eex_for':
+    'prefix': 'for'
+    'body': """
+      <%= for ${1:model} <- @${1:model}s do %>
+        $2
+      <% end %>
+    """
+  'eex_if':
+    'prefix': 'if'
+    'body': """
+      <%= if $1 do %>
+        $2
+      <% end %>
+    """
+  'eex_if_else':
+    'prefix': 'ife'
+    'body': """
+      <%= if $1 do %>
+        $2
+      <% else %>
+        $3
+      <% end %>
+    """
+  'eex_else':
+    'prefix': 'else'
+    'body': "<% else %>"
+  'eex_unless':
+    'prefix': 'unless'
+    'body': """
+      <%= unless $1 do %>
+        $2
+      <% end %>
+    """
+  'eex_cond':
+    'prefix': 'cond'
+    'body': """
+      <%= cond do %>
+        <% $1 -> %>
+          $2
+        <% true -> %>
+          $3
+      <% end %>
+    """
+  'eex_form_for':
+    'prefix': 'ff'
+    'body': """
+      <%= form_for @${1:changeset}, ${2:url}, ${3:[]}, fn f -> %>
+        $4
+      <% end %>
+    """
