@@ -1,16 +1,14 @@
 {
   "name": "phoenix-snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "atom": ">= 0.189.0"
   },
   "description": "Snippets for your phoenix projects",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/victorlcampos/phoenix-snippets",
   "license": "Apache 2.0",
-  "dependencies": {
-  },
+  "dependencies": {},
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/victorlcampos/phoenix-snippets/issues"
