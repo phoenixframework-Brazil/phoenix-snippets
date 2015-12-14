@@ -62,3 +62,8 @@
         $4
       <% end %>
     """
+  'eex_render':
+    'prefix': 'render'
+    'body': """
+      <%= render "${1:partial}.html", ${2:local_var: @local} %>
+    """
