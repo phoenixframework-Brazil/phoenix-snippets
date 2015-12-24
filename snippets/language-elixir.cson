@@ -19,6 +19,11 @@
         $2
       <% end %>
     """
+  'eex_link':
+    'prefix': 'lt'
+    'body': """
+      <%= link "${1:text}", to: ${2:url} %>
+    """
   'eex_if':
     'prefix': 'if'
     'body': """
