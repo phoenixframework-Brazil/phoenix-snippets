@@ -19,6 +19,15 @@
         $2
       <% end %>
     """
+  'eex_error_tag':
+    'prefix': 'et'
+    'body': '<%= error_tag ${1:f}, :${1:field} %>'
+  'eex_text_input':
+    'prefix': 'ti'
+    'body': '<%= text_input ${1:f}, :${1:field} %>'
+  'eex_password_input':
+    'prefix': 'pi'
+    'body': '<%= password_input ${1:f}, :${1:field} %>'
   'eex_link':
     'prefix': 'lt'
     'body': """
